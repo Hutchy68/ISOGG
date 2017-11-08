@@ -1,0 +1,7 @@
+<div id="twitter" class="hidden-print hidden-xs hidden-sm">
+	<div class="twitter-embed">
+	<br>
+	<a class="twitter-timeline" data-width="250" data-height="600" href="https://twitter.com/isogg">Tweets by isogg</a>
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>

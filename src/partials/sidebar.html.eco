@@ -1,0 +1,9 @@
+<div id="sidebar" class="hidden-print hidden-xs hidden-sm">
+	<div class="manual-image-lg">
+		<img src="<%= @site.url %>/images/tm_ISOGG_large.png?raw=true" alt="ISOGG Logo Graphic">
+	</div>
+	<div id="social-buttons" class="addthis_sharing_toolbox"></div>
+	<div class="addthis_horizontal_follow_toolbox"></div>
+	<h2>Page Contents</h2>
+	<div id="toc" class="tocify"></div>
+</div>

@@ -1,0 +1,52 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</button>
+				<div class="manual-image hidden-md hidden-lg">
+				<img src="<%= @site.url %>/images/small_ISOGG_TM.png?raw=true" alt="ISOGG Logo Graphic">
+				</div>
+				<a class="navbar-brand hidden-xs hidden-sm" href="<%= @site.url %>">International Society of Genetic Genealogy</a>
+				<a class="navbar-brand hidden-md hidden-lg" href="<%= @site.url %>">International Society of Genetic Genealogy</a>
+		</div>
+		<div class="clearfix"></div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li>
+				<a href="/joinform.html" id="join">Join ISOGG</a>
+				</li>
+				<li class="dropdown">
+				<a href="#" data-toggle="dropdown" class="dropdown-toggle" id="code">Resources<b class="caret"></b></a>
+					<ul class="dropdown-menu">				
+						<% for document in @getCollection('resources').toJSON(): %>
+						<li
+							typeof="sioc:Page"
+							about="<%= document.url %>"
+							class="<%= 'active'	if @document.url is document.url %>"
+						>
+							<a href="<%= @site.url+document.url %>" property="dc:title">
+								<%= document.title %>
+							</a>
+						</li>
+					<% end %>
+					</ul>
+				</li>
+				<li>
+				<a href="" onClick="Wiki=window.open('https://isogg.org/wiki/','Wiki'); return false;" id="wiki">ISOGG Wiki</a>
+				</li>
+				<li>
+				<a href="" onClick="Tree=window.open('https://isogg.org/tree/index.html','Tree'); return false;" id="join">YSNP Tree</a>
+				</li>
+				<li>
+				<a href="" onClick="Tree=window.open('http://jogg.info','Journal of Genetic Genealogy'); return false;" id="join">JoGG</a>
+				</li>
+				<li>
+				<a href="" onClick="Yahoo=window.open('https://groups.yahoo.com/neo/groups/DNA-NEWBIE/info','Yahoo'); return false;" id="join">Yahoo! Forum</a>
+				</li>
+			</ul>
+		</div><!--/.navbar-collapse -->
+	</div>
+</div>

@@ -1,0 +1,41 @@
+# www.robotstxt.org/
+# http://code.google.com/web/controlcrawlindex/
+
+User-agent: *
+Disallow: /w/
+Allow: /w/skins/
+Allow: /w/images/
+Allow: /w/cache/
+Allow: /w/resources/
+Allow: /w/load.php*
+Allow: /tree/
+Allow: /images/
+Allow: /icons/
+Allow: /icon/
+Allow: /resources/
+Allow: /newsletters/
+Allow: /scripts/
+Allow: /styles/
+Disallow: /wiki/Special:Search
+Disallow: /wiki/Special:Random
+Disallow: /wiki/Special:*
+Disallow: /wiki/Widget:CalFrame
+Disallow: /pub/
+
+User-agent: 360Spider
+Disallow: /
+ 
+User-agent: YoudaoBot
+Disallow: /
+ 
+User-agent: sogou spider
+Disallow: /
+ 
+User-agent: YisouSpider
+Disallow: /
+ 
+User-agent: LinksCrawler
+Disallow: /
+ 
+User-agent: EasouSpider
+Disallow: /

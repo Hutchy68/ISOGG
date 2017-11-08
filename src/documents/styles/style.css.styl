@@ -1,0 +1,235 @@
+@import 'nib'
+
+.credit
+  margin 20px 0
+
+a, a:link
+	cursor pointer
+
+body
+	padding-top 120px
+	font-family 'Merriweather',serif
+	font-weight 400 
+	height 100%
+	font-size 16px
+	color #222
+
+p
+	margin-bottom 20px
+
+blockquote
+	border none
+	font-size inherit
+
+ul.nav.navbar-nav
+	font-size 16px
+	font-weight bold
+	font-variant small-caps
+
+navbar-header
+    max-height 80px
+
+a.navbar-brand.hidden-xs.hidden-sm
+    font-size 36px
+	
+.navbar.navbar-inverse.navbar-fixed-top 
+    font-family 'Lato',sans-serif
+	
+.navbar-inverse
+    background-color #7C7C7C
+	
+.navbar-inverse .navbar-brand
+    color #000
+	
+.navbar-inverse .navbar-nav>li>a
+    color #333
+	
+a.navbar-brand.hidden-md.hidden-lg
+    font-size 24px
+    display inline
+    max-width 100%
+    line-height 1.1em
+	min-height 70px
+
+.dropdown-menu > li > a:hover
+	background-color  #aaa
+
+.navbar-inverse .navbar-nav>li>a:hover,	
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus
+    background-color  #aaa
+	
+@media (max-width: 767px)
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover
+		background-color #aaa
+		
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a
+		color #333
+
+@media (max-width:768px)
+	a.navbar-brand.hidden-md.hidden-lg
+		font-size 16px
+		display inline
+		max-width 55%
+		line-height 1.1em
+		min-height 70px
+		
+@media (max-width:320px)
+	a.navbar-brand.hidden-md.hidden-lg
+		font-size 16px
+		display inline
+		max-width 45%
+		line-height 1.1em
+		min-height 100px
+
+@media (min-width:768px)
+	body
+		font-size 14px
+		
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	font-family 'Lato',sans-serif
+	font-weight 500
+	margin-top 5px
+	margin-bottom 20px
+
+h4
+	font-size 20px
+
+img
+	max-width 100%
+	height auto
+	
+.manual-image
+	text-align center
+	margin 8px
+	width 60px
+	float left
+	display inline-block
+
+.manual-image-lg
+	text-align center
+	
+.manual-image-lg img
+	max-width 90%
+
+.sidebar-nav li.active
+	font-weight bold
+	
+.header-link
+  position absolute
+  left 2px
+  opacity 0
+  -webkit-transition opacity 0.2s ease-in-out 0.1s;
+  -moz-transition opacity 0.2s ease-in-out 0.1s;
+  -ms-transition opacity 0.2s ease-in-out 0.1s;
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link
+  opacity 1
+
+.sidebar-nav .nav>li>a
+	padding 2px 5px
+
+.copyright,
+.timestamp
+	font-size: 85%
+	
+.copyright
+	font-weight bold
+	
+i.fa.fa-link
+	font-size 20px;
+	
+section#content
+	padding 0px 5px
+	background #fff
+
+@media (min-width:768px)
+	section#content
+		padding 10px 15px
+		border 1px solid #eee
+		margin 25px 0px 0px
+	body
+		background #f6f6f6
+		
+#sidebar h2
+	border-bottom 1px solid #aaa
+	font-size 20px
+	line-height 26px
+
+#social-buttons
+    margin-top 20px
+
+table>thead>tr>th
+    vertical-align bottom
+    border-bottom 2px solid #ddd
+
+table>tbody>tr:nth-child(odd)>td,
+table>tbody>tr:nth-child(odd)>th
+    background-color #eee
+	
+.speakers table > thead > tr > th:nth-child(3)
+    width 10%
+	
+.speakers table > thead > tr > th:nth-child(2)
+    width 70%
+	
+.speakers table > thead > tr > th
+    width 20%
+	
+.rc-events table > thead > tr > th
+    width 30%
+	
+.rc-events table > thead > tr > th:nth-child(2)
+    width 70%
+
+table
+    width 100%
+    max-width 100%
+    margin-bottom 20px
+	
+table>thead>tr>th,
+table>tbody>tr>th,
+table>tfoot>tr>th,
+table>thead>tr>td,
+table>tbody>tr>td,
+table>tfoot>tr>td
+    padding 8px
+    line-height 1.42857143
+	
+@media (max-width:660px)
+	table
+		overflow-x auto
+		display block
+		border 1px solid #aaa
+	
+#sidebar p
+	margin 10px 0 0 0
+	
+.dropdown-menu
+	font-size 16px
+
+.calendar-container
+	position relative
+	padding-bottom 75%
+	height 0
+	overflow hidden
+	
+.calendar-container iframe
+	position absolute
+	top 0
+	left 0
+	width 100%
+	height 100%
