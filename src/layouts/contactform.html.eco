@@ -108,7 +108,8 @@
 
 				<?php
 				$contact_form = <%= @document.formnumber %>; // set desired form number.
-				$contact_form_path = '/home/isogqgzj/public_html/contact-files/'; // set path to /contact-files/ with slash on end.
+				$path = getcwd();
+				$contact_form_path = $path.'/contact-files/'; // set path to /contact-files/ with slash on end.
 				require $contact_form_path . 'contact-form-run.php';
 				?>
 
