@@ -145,15 +145,18 @@ Georgia Kinney Bopp | Oahu & Neighbor Islands | [Contact](mailto:gkbopp@gmail.co
 Who    |  Where |  Contact |
 ---------- | ----------- | ----------- |
 Charles Acree | West Texas, Midland, and Odessa | [Contact](mailto:acreegenealogy@sbcglobal.net?subject=ISOGG Speaker Query)
-Max Blankfeld | Texas (Houston) | [Contact](mailto:max@familytreedna.com?subject=ISOGG Speaker Query)
-Garland Boyette | Texas (Houston) | [Contact](mailto:gdboyette@gmail.com?subject=ISOGG Speaker Query)
-Jane Buck | Texas (Houston) | [Contact](mailto:jbuck@ftdna.com?subject=ISOGG Speaker Query)
-Les Sutton | Texas (Houston and 200 mile radius around) | [Contact](mailto:LesSutton@aol.com?subject=ISOGG Speaker Query)
-Carey Bracewell | Central Texas, Austin and San Antonio | [Contact](mailto:cbrazil36@att.net?subject=ISOGG Speaker Query)
 Mic Barnette | Texas (Dallas and Ft. Worth and surrounding region) | [Contact](mailto:mic@barnettesbooks.com?subject=ISOGG Speaker Query)
 Michael V. Bassett | Texas (Plano) | [Contact](mailto:michaelvbassett@usa.net?subject=ISOGG Speaker Query)
+Max Blankfeld | Texas (Houston) | [Contact](mailto:max@familytreedna.com?subject=ISOGG Speaker Query)
+Garland Boyette | Texas (Houston) | [Contact](mailto:gdboyette@gmail.com?subject=ISOGG Speaker Query)
+Carey Bracewell | Central Texas, Austin and San Antonio | [Contact](mailto:cbrazil36@att.net?subject=ISOGG Speaker Query)
+Jane Buck | Texas (Houston) | [Contact](mailto:jbuck@ftdna.com?subject=ISOGG Speaker Query)
+Brad Larkin | Texas | [Contact](mailto:btlarkin1@gmail.com?subject=ISOGG Speaker Query)
 Don Raney | Texas (Dallas and Ft. Worth) | [Contact](mailto:donraney@tx.rr.com?subject=ISOGG Speaker Query)
+Les Sutton | Texas (Houston and 200 mile radius around) | [Contact](mailto:LesSutton@aol.com?subject=ISOGG Speaker Query)
 Sue Waite-Langley | Texas (Dallas and Ft. Worth) | [Contact](mailto:swaitela@att.net?subject=ISOGG Speaker Query)
+
+
 
 <hr/>
 

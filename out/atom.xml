@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>International Society of Genetic Genealogy</title>
-	<link href="http://isogg.org/atom.xml" rel="self"/>
-	<link href="http://isogg.org"/>
-	<updated>2017-11-15T02:39:05.996Z</updated>
-	<id>http://isogg.org</id>
+	<link href="//isogg.org/atom.xml" rel="self"/>
+	<link href="//isogg.org"/>
+	<updated>2017-11-15T03:07:17.480Z</updated>
+	<id>//isogg.org</id>
 	<author>
 		<name>ISOGG</name>
 		<email>your@email.com</email>

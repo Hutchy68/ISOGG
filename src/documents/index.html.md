@@ -37,9 +37,17 @@ Here are a few links to pages you should definitely visit.
 - Here are a few portal pages you should visit, [Autosomal DNA](http://isogg.org/wiki/Portal:Autosomal_DNA), [Mitochondrial DNA](http://isogg.org/wiki/Portal:Mitochondrial_DNA), and [Y-chromosome DNA](http://isogg.org/wiki/Portal:Y-chromosome_DNA)
 - [Join ISOGG](http://isogg.org/joinform.html) and Learn how to [Get Involved](http://isogg.org/wiki/ISOGG_Wiki:How_can_you_help_ISOGG%3F)  and help ISOGG
 
-### Our History
+### Society History
 
 The name was chosen by vote in March 2005, and reflects that those supportive of promoting genetic genealogy desire an inclusive society at an international level.  Currently, we have over 10,000 members!
+
+#### The Founders
+
+John Blair, Katherine Borges, Nancy Davenport, Ken Hedgpeth, Suzanne Johnston, Charles Kerchner, Linda Magellan, Doug Miller and Pat Tagert
+
+#### Our Director
+
+Katherine Borges
 
 ### Countries of Our Members
 

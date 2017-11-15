@@ -55,7 +55,6 @@ Contact   |  Where |
 [Georgia Kinney Bopp](mailto:gkbopp@gmail.com?subject=ISOGG Events Query) | Hawaii
 [Robert Noles](mailto:rbnoles@bellsouth.net?subject=ISOGG Events Query) | Louisiana-Mississippi
 [Charles Kerchner](http://www.kerchner.com/contact.htm) | Mid-Atlantic 
-[Cynthia Wells](mailto:wells9232@bellsouth.net?subject=ISOGG Events Query) | North Carolina 
 [Emily Aulicino](mailto:aulicino@hevanet.com?subject=ISOGG Events Query) | Pacific Northwest
 [Allen Blancett](mailto:alblancett@gforcecable.com?subject=ISOGG Events Query) | Southeastern
 [Ana Oquendo Pabón](mailto:bueli@tampabay.rr.com?subject=ISOGG Events Query) | Tampa Bay, Florida
