@@ -1,1 +1,97 @@
-#join-container.contact{max-width:350px;margin:0 auto}select.drop-down-contact{max-width:100%;padding:5px 0}@media (min-width:400px){#join-container.contact{max-width:100%;margin:0 auto}}.input-titles label{display:block;width:100%;float:none;margin:0 0 .5em;text-align:left}.input-fields{display:block;margin:0 0 .5em}@media (min-width:768px){.input-titles label{width:240px;display:inline-block;margin:0 1em 0;float:left;text-align:right;line-height:1.6em;font-size:15px;font-family:sans-serif}.input-fields{display:inline-block;margin:0 0 .5em}}.class-form{width:auto}.captcha-div{display:table;width:auto;text-align:center;clear:both;margin:0 auto 1em}.input-fields input{width:100%;max-width:100%;line-height:1.4em}#FSCForm2,#FSCForm3{width:auto;display:block;border:1px solid #eee;padding:10px;background-color:#f6f6f6;margin:1em}h2{width:auto;display:block}div#si_refresh_ctf2,div#si_refresh_ctf3{display:table-cell}.submit-buttons{display:inline-block;margin:0 auto}input#fsc-submit-2,input#fsc-submit-3{font-size:15px;background-color:#90ee90}input#fsc-reset-2,input#fsc-reset-3{font-size:15px;background-color:#f00;color:#fff}form#fsc_form2,form#fsc_form3{width:auto;margin:0 auto}textarea{width:100%;max-width:100%}
+#join-container.contact {
+  max-width: 350px;
+  margin: 0 auto;
+}
+select.drop-down-contact {
+  max-width: 100%;
+  padding: 5px 0;
+}
+@media (min-width: 400px) {
+  #join-container.contact {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+.input-titles label {
+  display: block;
+  width: 100%;
+  float: none;
+  margin: 0 0 0.5em;
+  text-align: left;
+}
+.input-fields {
+  display: block;
+  margin: 0 0 0.5em;
+}
+@media (min-width: 768px) {
+  .input-titles label {
+    width: 240px;
+    display: inline-block;
+    margin: 0 1em 0;
+    float: left;
+    text-align: right;
+    line-height: 1.6em;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .input-fields {
+    display: inline-block;
+    margin: 0 0 0.5em;
+  }
+}
+.class-form {
+  width: auto;
+}
+.captcha-div {
+  display: table;
+  width: auto;
+  text-align: center;
+  clear: both;
+  margin: 0 auto 1em;
+}
+.input-fields input {
+  width: 100%;
+  max-width: 100%;
+  line-height: 1.4em;
+}
+#FSCForm2,
+#FSCForm3 {
+  width: auto;
+  display: block;
+  border: 1px solid #eee;
+  padding: 10px;
+  background-color: #f6f6f6;
+  margin: 1em;
+}
+h2 {
+  width: auto;
+  display: block;
+}
+div#si_refresh_ctf2,
+div#si_refresh_ctf3 {
+  display: table-cell;
+}
+.submit-buttons {
+  display: inline-block;
+  margin: 0 auto;
+}
+input#fsc-submit-2,
+input#fsc-submit-3 {
+  font-size: 15px;
+  background-color: #90ee90;
+}
+input#fsc-reset-2,
+input#fsc-reset-3 {
+  font-size: 15px;
+  background-color: #f00;
+  color: #fff;
+}
+form#fsc_form2,
+form#fsc_form3 {
+  width: auto;
+  margin: 0 auto;
+}
+textarea {
+  width: 100%;
+  max-width: 100%;
+}
