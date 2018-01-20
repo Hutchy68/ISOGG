@@ -89,7 +89,6 @@ Terry Barton | Atlanta, Georgia and northwest Georgia | [Contact](mailto:terry@b
 Allen Blancett | Aiken, South Carolina and Augusta, Georgia, within 100 mile radius. | [Contact](mailto:alblancett@gforcecable.com?subject=ISOGG Speaker Query)
 David Boyett | Tampa Bay, Florida 100 mile radius | [Contact](mailto:davidboyett@aol.com?subject=ISOGG Speaker Query)
 Walter J. Freeman, PhD | North/Central Georgia including Atlanta, and surrounding regions | [Contact](mailto:sffwjf@gmail.com?subject=ISOGG Speaker Query)
-Nora Probasco | Louisville, Kentucky Willing to travel within 125 mile radius of Louisville.  Cities include: Indianapolis, IN; Cincinnati, OH Lexington, KY; Nashville, TN | [Contact](mailto:nprobasco@earthlink.net?subject=ISOGG Speaker Query)
 Peter J. Roberts | Atlanta, Georgia and surrounding region. | [Contact](mailto:peterebay@yahoo.com?subject=ISOGG Speaker Query)
 Elise Friedman | South Florida (Boca Raton,  West Palm Beach, and Ft. Lauderdale) Specialties: Jewish DNA | [Contact](mailto:dna@myrelatives.net?subject=ISOGG Speaker Query)
 Ernest Hatton | Orlando and Winter Park, Florida | [Contact](mailto:ErnestHatton@gmail.com?subject=ISOGG Speaker Query)
