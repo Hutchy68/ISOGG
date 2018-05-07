@@ -227,7 +227,7 @@
 				<p>&copy;2005-2018 International Society of Genetic Genealogy - All rights reserved</p>
 				</div>
 				<p class="pull-right timestamp">
-					Updated Mon, 07 May 2018 17:32:45 GMT
+					Updated Mon, 07 May 2018 17:38:46 GMT
 				</p>
 				</div>
 			</div>
@@ -236,5 +236,12 @@
 	
 	<!-- Scripts -->
 	<script defer="defer"  src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script defer="defer"  src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="/scripts/jquerywidget.js"></script><script defer="defer"  src="/scripts/tocify.js"></script><script defer="defer"  src="/scripts/tocbuild.js"></script>
+		<?php 
+	if(isset($_COOKIE['cookieconsent_status']) && $_COOKIE['cookieconsent_status'] == 'allow') { 
+	?>
+	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f7269b339fed7f"></script>
+	<?php 
+	} 
+	?>
 </body>
 </html>
