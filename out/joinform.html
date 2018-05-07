@@ -65,25 +65,26 @@
 	
 	<!-- Cookie Notice -->
 	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script src="/scripts/cookieconsent.js"></script>
 	<script>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-	"palette": {
-		"popup": {
-		"background": "#252e39"
-		},
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+		"palette": {
+			"popup": {
+			"background": "#7c7c7c"
+			},
 		"button": {
-		"background": "#7c7c7c"
-		}
-	},
-	"position": "top-right",
+			"background": "#f1d600"
+			}	
+		},
+		"theme": "classic",
+		"position": "bottom-right",
+		"type": "opt-in",
 		"content": {
-		"message": "All ISOGG websites use cookies. The full text of all privacy and cookie policies is available on the ISOGG Wiki.",
-		"dismiss": "Dismiss",
-		"href": "http://isogg.org/wiki/ISOGG_Wiki:Privacy_and_cookie_policy"
-	}
-	})});
+		"dismiss": "Block Cookies & Dismiss",
+		"href": "https://isogg.org/wiki/ISOGG_Wiki:Cookie_policy"
+		}
+		})});
 	</script>
 	<!-- End Cookie Notice -->
 	
@@ -220,7 +221,7 @@
 				<p>&copy;2005-2018 International Society of Genetic Genealogy - All rights reserved</p>
 				</div>
 				<p class="pull-right timestamp">
-					Updated Mon, 07 May 2018 17:38:46 GMT
+					Updated Mon, 07 May 2018 17:47:15 GMT
 				</p>
 				</div>
 			</div>
