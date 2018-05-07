@@ -61,25 +61,26 @@
 	
 	<!-- Cookie Notice -->
 	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script src="/scripts/cookieconsent.js"></script>
 	<script>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-	"palette": {
-		"popup": {
-		"background": "#252e39"
-		},
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+		"palette": {
+			"popup": {
+			"background": "#7c7c7c"
+			},
 		"button": {
-		"background": "#7c7c7c"
-		}
-	},
-	"position": "top-right",
+			"background": "#f1d600"
+			}	
+		},
+		"theme": "classic",
+		"position": "bottom-right",
+		"type": "opt-in",
 		"content": {
-		"message": "All ISOGG websites use cookies. The full text of all privacy and cookie policies is available on the ISOGG Wiki.",
-		"dismiss": "Dismiss",
-		"href": "http://isogg.org/wiki/ISOGG_Wiki:Privacy_and_cookie_policy"
-	}
-	})});
+		"dismiss": "Block Cookies & Dismiss",
+		"href": "https://isogg.org/wiki/ISOGG_Wiki:Cookie_policy"
+		}
+		})});
 	</script>
 	<!-- End Cookie Notice -->
 	
@@ -189,7 +190,13 @@
 	<div class="twitter-embed">
 	<br>
 	<a class="twitter-timeline" data-width="250" data-height="600" href="https://twitter.com/isogg">Tweets by isogg</a>
+	<?php 
+	if(isset($_COOKIE['cookieconsent_status']) && $_COOKIE['cookieconsent_status'] == 'allow') { 
+	?>	
 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<?php 
+	} 
+	?>
 	</div>
 </div>
 			</div>
@@ -223,7 +230,7 @@
 				<p>&copy;2005-2018 International Society of Genetic Genealogy - All rights reserved</p>
 				</div>
 				<p class="pull-right timestamp">
-					Updated Sat, 20 Jan 2018 15:30:42 GMT
+					Updated Mon, 07 May 2018 17:32:45 GMT
 				</p>
 				</div>
 			</div>
@@ -231,6 +238,13 @@
 	</footer>
 	
 	<!-- Scripts -->
-	<script defer="defer"  src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script defer="defer"  src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><script defer="defer"  src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f7269b339fed7f"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="/scripts/jquerywidget.js"></script><script defer="defer"  src="/scripts/tocify.js"></script><script defer="defer"  src="/scripts/tocbuild.js"></script>
+	<script defer="defer"  src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script defer="defer"  src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="/scripts/jquerywidget.js"></script><script defer="defer"  src="/scripts/tocify.js"></script><script defer="defer"  src="/scripts/tocbuild.js"></script>
+	<?php 
+	if(isset($_COOKIE['cookieconsent_status']) && $_COOKIE['cookieconsent_status'] == 'allow') { 
+	?>
+	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f7269b339fed7f"></script>
+	<?php 
+	} 
+	?>
 </body>
 </html>
