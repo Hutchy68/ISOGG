@@ -55,7 +55,6 @@ docpadConfig = {
 			scripts: [
 				"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
 				"//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"
-				"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f7269b339fed7f"
 				"/scripts/script.js"
 				"/scripts/jquerywidget.js"
 				"/scripts/tocify.js"

@@ -2,6 +2,12 @@
 	<div class="twitter-embed">
 	<br>
 	<a class="twitter-timeline" data-width="250" data-height="600" href="https://twitter.com/isogg">Tweets by isogg</a>
+	<?php 
+	if(isset($_COOKIE['cookieconsent_status']) && $_COOKIE['cookieconsent_status'] == 'allow') { 
+	?>	
 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<?php 
+	} 
+	?>
 	</div>
 </div>
