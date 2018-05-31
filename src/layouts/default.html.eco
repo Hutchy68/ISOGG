@@ -114,6 +114,8 @@
 					<hr/>
 				<div class="pull-left copyright">
 				<a href="<%= @site.url %>/contactus.html" style="font-size:110%;">Contact ISOGG</a>
+				<a href="<%= @site.url %>/wiki/ISOGG_Wiki:Privacy_policy" style="font-size:110%;">Privacy Policy</a>
+				<a href="<%= @site.url %>/wiki/ISOGG_Wiki:Terms_of_Use" style="font-size:110%;">Terms of Use</a>
 				<p>&copy;2005-<%- (new Date()).getFullYear() %> International Society of Genetic Genealogy - All rights reserved</p>
 				</div>
 				<p class="pull-right timestamp">

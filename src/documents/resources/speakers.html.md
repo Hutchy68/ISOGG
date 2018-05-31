@@ -73,7 +73,6 @@ Dewaine Alcorn | Nebraska, Lincoln and surrounding region | [Contact](mailto:Dal
 Jeffrey Bassett | Mundelein, Illinois and surrounding region including Chicago and Milwaukee, WI. | [Contact](mailto:bassettgenealogy@gmail.com?subject=ISOGG Speaker Query)
 Rupert Furgerson | 75 mile radius from Madisonville, including Evansville, IN, Nashville & Clarksville, TN and Paducah, KY | [Contact](mailto:rfurgerson2@juno.com?subject=ISOGG Speaker Query)
 Harley Dakin | SE Ohio, W. West Virginia | [Contact](mailto:hpdakin@sbcglobal.net?subject=ISOGG Speaker Query)
-James M. Freed | Ohio, and W. Pennsylvania, N. Kentucky, E. Indiana, S. Michigan | [Contact](mailto:jmfreed@midohio.net?subject=ISOGG Speaker Query)
 Richard Hill | Michigan | [Contact](mailto:dickhill@chartermi.net?subject=ISOGG Speaker Query)
 Gregory Parker | Oklahoma | [Contact](mailto:parker@nhn.ou.edu?subject=ISOGG Speaker Query)
 Dirk Schweitzer | Indiana, Michigan, Illinois Specialty: Circu-mediterranean DNA Bilingual: English & German | [Contact](mailto:dirkdna@yahoo.com?subject=ISOGG Speaker Query)
