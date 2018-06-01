@@ -55,7 +55,7 @@ haplogroups I, N1a, b, & c, and W.
 
 #### Phillip Goff
 
->**Email:** <a href="mailto:philgoff@carolina.rr.com?subject=ISOGG Consultant Query">Phillip Goff</a>
+>**Email:** <a href="mailto:phillip.g.goff@gmail.com?subject=ISOGG Consultant Query">Phillip Goff</a>
 
 >**Y-chromosome DNA Results and General Genealogy Research Includes:** Survey of DNA databases and academic studies, combined with traditional genealogy research to help get around brick walls. 
 
@@ -90,6 +90,13 @@ genealogical research, and finding genealogical matches with Y-DNA to extend you
 
 >**Autosomal/Admixture (atDNA) Results Consulting:** Specializing in mixed and minority ancestry, Native and African American admixed people 
 seeking their roots. <a href="http://www.dnaexplain.com" TARGET="_blank">http://www.dnaexplain.com/</a>
+
+#### Phillip Goff
+
+>**Email:** <a href="mailto:phillip.g.goff@gmail.com?subject=ISOGG Consultant Query">Phillip Goff</a>
+
+>**Autosomal/Admixture (atDNA) Results Consulting:** Consulting and assistance in analyzing autosomal DNA for genealogy research, 
+including helping adoptees to discover their biological family tree. 
 
 #### Cheri Mello
 
