@@ -23,7 +23,7 @@ This society is a non-commercial non-profit organization.  There are **NO** dues
 
 ### Getting Started
 
-<div id="award" class="pull-right text-center" style="margin-left:10px;border: 1px solid #333;padding: 2px 10px 10px;"><h4 style="margin:0 0 5px 0">ISOGG Wiki</h4><a href="https://www.familytreemagazine.com/best-genealogy-websites/"><img src="images/Award-2018.png?raw=true" alt="ISOGG 2018 Award Graphic"></a></div>
+<div id="award" class="pull-right text-center" style="margin-left:10px;border: 1px solid #333;padding: 2px 10px 10px;"><h4 style="margin:0 0 5px 0">ISOGG Wiki</h4><a href="https://www.familytreemagazine.com/best-genealogy-websites/"><img src="images/Award-2018.jpg?raw=true" alt="ISOGG 2018 Award Graphic"></a></div>
 
 Are you new to genetic genealogy and don't know where to start? There is a lot of information on our **2018 Award Winning [ISOGG Wiki](/wiki/)**. 
 
