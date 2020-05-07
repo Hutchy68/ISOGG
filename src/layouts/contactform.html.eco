@@ -56,7 +56,8 @@
 	<script type="text/javascript" src="<%= @site.url %>/contact-files/contact-form.js"></script>
 	
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<script type="text/plain" data-cookiescript="accepted" data-cookiecategory="performance">
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -64,28 +65,7 @@
 	<!-- End Google Tag Manager -->
 	
 	<!-- Cookie Notice -->
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-	<script src="/scripts/cookieconsent.js"></script>
-	<script>
-		window.addEventListener("load", function(){
-		window.cookieconsent.initialise({
-		"palette": {
-			"popup": {
-			"background": "#7c7c7c"
-			},
-		"button": {
-			"background": "#f1d600"
-			}	
-		},
-		"theme": "classic",
-		"position": "bottom-right",
-		"type": "opt-in",
-		"content": {
-		"dismiss": "Block Cookies & Dismiss",
-		"href": "https://isogg.org/wiki/ISOGG_Wiki:Cookie_policy"
-		}
-		})});
-	</script>
+	<script type="text/javascript" charset="UTF-8" src="https://cookie-script.com/s/bc7e4dca44d8d5849c29e70da517e80c.js"></script>
 	<!-- End Cookie Notice -->
 	
 </head>
@@ -143,12 +123,6 @@
 	
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
-		<?php 
-	if(isset($_COOKIE['cookieconsent_status']) && $_COOKIE['cookieconsent_status'] == 'allow') { 
-	?>
-	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f7269b339fed7f"></script>
-	<?php 
-	} 
-	?>
+	<script type="text/plain" data-cookiescript="accepted" data-cookiecategory="targeting functionality" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f7269b339fed7f" async="async"></script>
 </body>
 </html>
