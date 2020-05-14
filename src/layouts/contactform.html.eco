@@ -4,6 +4,8 @@
 	<!-- Meta -->
 	<meta charset="utf-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache" />
 
 	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
 		 More info: h5bp.com/i/378 -->
@@ -71,7 +73,7 @@
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5N2N5"
+	<noscript><iframe data-src="https://www.googletagmanager.com/ns.html?id=GTM-K5N2N5" data-cookiescript="accepted" alt="" data-cookiecategory="performance"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<!-- Menu -->
@@ -88,10 +90,18 @@
 				<div id="join-container" class="contact">
 
 				<?php
+				$cookie_name = 'CookieScriptConsent';
+				$cookie_value = $_COOKIE[$cookie_name];
+				if(preg_match('(performance)', $cookie_value) === 1) { $accepted_cookies = true; } 
+				if( $accepted_cookies ) {
 				$contact_form = <%= @document.formnumber %>; // set desired form number.
 				$path = getcwd();
 				$contact_form_path = $path.'/contact-files/'; // set path to /contact-files/ with slash on end.
 				require $contact_form_path . 'contact-form-run.php';
+				} else {
+				echo '<h3>Cookies Not Allowed</h3>';
+				echo '<h4 class="alert-danger" style="text-align:center;padding:10px;">You need to allow all cookies to use this form and then <a href="#" onclick="window.location.reload(true);">reload the page</a>!</h4>';
+				unset ($cookie_value);}
 				?>
 
 				</div>
