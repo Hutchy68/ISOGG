@@ -98,6 +98,7 @@
 				<a href="<%= @site.url %>/wiki/ISOGG_Wiki:Terms_of_Use" style="font-size:110%;">Terms of Use</a><span>  -  </span>
 				<a href="<%= @site.url %>/contactus.html" style="font-size:110%;">Contact ISOGG</a>
 				</p>
+				<p>ISOGG uses <a href="http://www.mxguarddog.com/">spam protection for domains</a> by MXGuarddog.</p>
 				<p>&copy;2005-<%- (new Date()).getFullYear() %> International Society of Genetic Genealogy - All rights reserved</p>
 				</div>
 				<p class="pull-right timestamp">
